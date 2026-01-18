@@ -40,19 +40,29 @@ amministratori.
 **- Backend**
 
   • Node.js
+  
   • npm
+  
   • Express.js
+  
   • Typescript
+  
   • bcrypt (hash delle password)
+  
   • jsonwebtoken (creazione del token JWT)
+  
   • cookie-parser (legge i cookie dalle richieste)
+  
   • XAMP (per avviare MySQL)
   
 **- Frontend**
 
   • Vue.js
+  
   • Vite
+  
   • Axios
+  
   • Vue Router
 
   
@@ -69,17 +79,28 @@ gianninimatteo/Ingegneria-dei-Sistemi-Web.git
 **API Endpoints**
 **- GET**
     • /api/auth/profile
+    
     • /api/tendenze
+    
     • /api/prossimeUscite
+    
     • /api/giochi/:id
+    
     • /api/carrello
+    
     • /api/acquisti/verifica/:giocoId
+    
     • /api/libreria
+    
     • /api/recensioni/:gioco_id
+    
 **- POST**
     • /api/auth/register
+    
     • /api/auth/login
+    
     • /api/auth/logout
+    
     • /api/carrello
     • /api/acquisti
     • /api/recensioni
