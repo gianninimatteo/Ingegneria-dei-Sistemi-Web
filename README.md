@@ -39,31 +39,31 @@ amministratori.
 
 **- Backend**
 
-  • Node.js
+    • Node.js
   
-  • npm
+    • npm
   
-  • Express.js
+    • Express.js
   
-  • Typescript
+    • Typescript
   
-  • bcrypt (hash delle password)
+    • bcrypt (hash delle password)
   
-  • jsonwebtoken (creazione del token JWT)
+    • jsonwebtoken (creazione del token JWT)
   
-  • cookie-parser (legge i cookie dalle richieste)
+    • cookie-parser (legge i cookie dalle richieste)
   
-  • XAMP (per avviare MySQL)
+    • XAMP (per avviare MySQL)
   
 **- Frontend**
 
-  • Vue.js
+    • Vue.js
   
-  • Vite
+    • Vite
   
-  • Axios
+    • Axios
   
-  • Vue Router
+    • Vue Router
 
   
 **Installazione**
@@ -77,7 +77,9 @@ gianninimatteo/Ingegneria-dei-Sistemi-Web.git
 
   
 **API Endpoints**
+
 **- GET**
+
     • /api/auth/profile
     
     • /api/tendenze
@@ -95,6 +97,7 @@ gianninimatteo/Ingegneria-dei-Sistemi-Web.git
     • /api/recensioni/:gioco_id
     
 **- POST**
+
     • /api/auth/register
     
     • /api/auth/login
@@ -102,8 +105,13 @@ gianninimatteo/Ingegneria-dei-Sistemi-Web.git
     • /api/auth/logout
     
     • /api/carrello
+    
     • /api/acquisti
+    
     • /api/recensioni
+    
 **- DELETE**
+
     • /api/carrello/:giocoId
+    
     • /api/recensioni/:id
