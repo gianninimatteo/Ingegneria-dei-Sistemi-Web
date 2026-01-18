@@ -2,6 +2,7 @@ Progetto Ingegneria dei Sistemi Web 2026
 -
 
 **Introduzione**
+
 Gamenest Shop è un applicativo che consente di acquistare e visualizzare videogiochi per
 diverse console, tra cui pc, Playstation, Xbox e Nintendo. Una volta registrati si viene
 indirizzati alla Homepage che mostra tutti i giochi in Tendenza. Navigando nel menù sotto si
