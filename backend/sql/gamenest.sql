@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Creato il: Gen 18, 2026 alle 22:08
+-- Creato il: Gen 18, 2026 alle 23:46
 -- Versione del server: 10.4.28-MariaDB
 -- Versione PHP: 8.2.4
 
@@ -34,17 +34,6 @@ CREATE TABLE `acquisti` (
   `codice_attivazione` varchar(50) DEFAULT NULL,
   `data_acquisto` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dump dei dati per la tabella `acquisti`
---
-
-INSERT INTO `acquisti` (`id`, `utente_id`, `gioco_id`, `codice_attivazione`, `data_acquisto`) VALUES
-(17, 6, 1, 'DAPN5-0KXFM-DBTFK-KT56Q', '2026-01-16 10:06:02'),
-(18, 6, 2, NULL, '2026-01-17 16:56:12'),
-(19, 6, 3, '8E7NN-GMZA4-IN96C-BEORS', '2026-01-17 16:57:15'),
-(20, 6, 26, '811GH-LDYQ8-2J1OG-DG6R8', '2026-01-18 10:19:47'),
-(21, 6, 19, 'ZPE7V-T1OYL-XUFMV-PMF47', '2026-01-18 10:23:17');
 
 -- --------------------------------------------------------
 
@@ -128,13 +117,6 @@ CREATE TABLE `recensioni` (
   `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dump dei dati per la tabella `recensioni`
---
-
-INSERT INTO `recensioni` (`id`, `gioco_id`, `utente_id`, `contenuto`, `created_at`) VALUES
-(10, 1, 6, 'a', '2026-01-18 16:08:22');
-
 -- --------------------------------------------------------
 
 --
@@ -153,7 +135,6 @@ CREATE TABLE `utenti` (
 --
 
 INSERT INTO `utenti` (`id`, `username`, `password`, `role`) VALUES
-(6, 'matteo', '$2b$10$XVu/11X5Qvz8ij7jlY8EJ.otfGfomKy7D2AnLSvpHUSDVcjHGn7Du', 'user'),
 (7, 'admin', '$2b$10$xMmrKTnYyvLrbHdvfUMHN.Lv5Hxfk6AoO5AclSwEF4/PbpfBFQXL6', 'admin');
 
 --
@@ -205,13 +186,13 @@ ALTER TABLE `utenti`
 -- AUTO_INCREMENT per la tabella `acquisti`
 --
 ALTER TABLE `acquisti`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT per la tabella `carrello`
 --
 ALTER TABLE `carrello`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 
 --
 -- AUTO_INCREMENT per la tabella `giochi`
