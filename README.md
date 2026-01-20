@@ -1,7 +1,6 @@
-Progetto Ingegneria dei Sistemi Web 2026
--
+# Progetto Ingegneria dei Sistemi Web - 2026
 
-**Introduzione**
+## Introduzione
 
 Gamenest Shop è un applicativo che consente di acquistare e visualizzare videogiochi per
 diverse console, tra cui pc, Playstation, Xbox e Nintendo. Una volta registrati si viene
@@ -21,21 +20,21 @@ Una volta completato il pagamento il gioco sarà visibile nella libreria. Se il 
 si può visualizzare anche il codice da inserire nei vari Store.
 
 
-**Features per Utenti**
+## Features per Utenti
 
 - Si può esplorare il sito, acquistare e visualizzare i giochi acquistati.
 - Si possono scrivere recensioni per ogni videogioco.
 - E’ possibile vedere il proprio profilo in alto (nome utente).
 - Responsive design
   
-**Features per Amministratori**
+## Features per Amministratori
 - Si può accedere con username : admin - password : admin
 - Il colore del nome utente sarà diverso e fa capire che abbiamo fatto l’accesso come
 amministratori.
 - Possibilità di cancellare le recensioni di tutti gli utenti.
 
   
-**Tecnologie utilizzate**
+## Tecnologie utilizzate
 
 **- Backend**
 
@@ -66,7 +65,7 @@ amministratori.
     • Vue Router
 
   
-**Installazione**
+## Installazione
 
 - Clona il Repository nella cartella di tuo interesse: git clone https://github.com/
 gianninimatteo/Ingegneria-dei-Sistemi-Web.git
@@ -76,7 +75,7 @@ gianninimatteo/Ingegneria-dei-Sistemi-Web.git
 - Visitare il link dal frontend.
 
   
-**API Endpoints**
+## API Endpoints
 
 **- GET**
 
