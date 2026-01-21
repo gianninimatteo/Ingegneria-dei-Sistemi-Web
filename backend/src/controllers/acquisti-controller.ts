@@ -59,7 +59,7 @@ export function processaAcquisto(req: Request, res: Response) {
             }
             completati++
 
-            //Una volta che tutti gli inserimenti sono completati svuota il carrello
+            //una volta che tutti gli inserimenti sono completati svuota il carrello
             if (completati === carrello.length) {
               connection.query(
                 'DELETE FROM carrello WHERE utente_id = ?',
