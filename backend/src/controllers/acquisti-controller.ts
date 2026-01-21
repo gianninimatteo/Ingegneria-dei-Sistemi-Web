@@ -124,7 +124,7 @@ export function getLibreria(req: Request, res: Response) {
         return
       }
 
-      //Ristruttura i dati della join separando i campi di Libreria dai campi di Gioco e nel frontend usare acquisto.gioco.titolo 
+      //Ristruttura i dati della join separando i campi di Acquisto dai campi di Gioco e nel frontend usare acquisto.gioco.titolo 
       const acquisti = results.map((row: any) => ({
         id: row.id,
         codice_attivazione: row.codice_attivazione,
